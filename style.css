@@ -252,11 +252,11 @@ input[type="submit"] {
     font-size: 70px;
    }
    
-    .nav {font-size: 25px;
+    .nav {font-size: 15px;
        padding: 0px;
         justify-content: center;
         flex-wrap: wrap;
-        margin: auto;
+        margin: 2px;
         ;
        
         
@@ -300,7 +300,12 @@ input[type="submit"] {
         display: flex;
         flex-direction: column;
         align-items: center;
+        ;
     }
+    .footeritem {
+        font-size: 15px;
+     }
+
     /*Productos*/
     .itemgrid {
         font-size: 35px;

@@ -1,0 +1,191 @@
+$amarillo:rgba(228, 206, 12, 0.808);
+$negro: black;
+@import "./menu";
+@import "./footer";
+
+  
+* {
+    
+  font-family: 'Nova Square', sans-serif;
+  margin: 0;
+}
+
+
+header {
+  margin-top: -20px;
+  a {
+    text-decoration: none;
+    font-weight: 600;
+    color: $negro
+      
+  }
+  .nav {
+      background-color: $amarillo;
+      font-size: 15px;
+      text-decoration: none;
+      
+    
+      display: flex;
+      
+    justify-content: space-around;
+    
+    align-items: center;
+    .imagenbarraitem{ width: 130px;
+      border: 2px solid;
+      border-radius: 30px;
+      margin-top: 5px;
+      display: flex;
+      
+  
+    }
+  
+      .item {
+          
+          
+           margin: 10px 60px 10px 70px;
+           padding: 3px;
+           text-decoration: none;
+           border-radius: 10px;
+           
+           display: flex;
+                      
+       
+       }
+  
+  
+  
+  .item:hover {
+      background-color: bisque;
+     
+  }
+  }
+  
+}
+/* MAIN*/
+.fondoinx {
+  background-color: rgba(255, 255, 0, 0.5);
+  background-size: cover;
+  margin-bottom: 50px;
+ 
+  .titulo {
+   
+      font-family: "Roboto", Arial, sans-serif;
+       font-size: 5rem;
+       text-align: center;
+       margin-bottom: 10px;
+}
+
+
+.imagen {
+  
+  display: inline-block;
+  width: 600px;
+  margin-top: 0px;
+  box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
+-webkit-box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
+-moz-box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
+border-radius: 60px;
+background-position-x: left 25px;
+}
+
+.contenedorimg {
+  text-align: center;
+  
+ 
+ 
+
+}
+.txtindex {
+  font-size: 30px;
+  
+  
+  color: $negro;
+ 
+}
+
+
+.titulo {
+  font-size: 100px;
+  color: $negro;
+  text-shadow: 2px 1px 0px $negro;
+   
+}
+
+}
+
+  /* Para sacar el sub rayado de el footer y nav */
+  a {
+      text-decoration: none;
+      font-weight: 600;
+      color: black;
+      }
+
+
+
+
+
+/* Formulario echo con chat gpt*/
+.reserva {
+  background-color: #f9f9f9;
+  padding: 20px;
+  border-radius: 8px;
+  text-align: center;
+
+  .reservaform {
+    margin-bottom: 237px;
+    .form-group {
+      margin-bottom: 15px;
+    
+  }
+  label {
+    display: block;
+    font-weight: bold;
+}
+input {
+  padding: 8px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  width: 100%;
+  box-sizing: border-box;
+  margin-top: 4px;
+}
+input[type="submit"] {
+  background-color: #ff0000;
+  color: #fff;
+  cursor: pointer;
+  padding: 10px;
+  border: none;
+  border-radius: 4px;
+  width: 100%;
+}
+.form {
+  margin-bottom: 120px;
+}
+.reservaform {
+  margin-bottom: 237px;
+}
+}
+}
+/* Pedidos main*/
+.pedidoswsp {
+  height: 500px;
+  display: flex;
+  margin-bottom: 185px;
+  
+   }
+   body {
+    background-color: rgb(241, 241, 102, 0.5);
+   }
+ 
+.form {
+  margin-bottom: 240px;
+}
+input[type="submit"] {
+  background-color: #ff0000;
+  color: #fff;
+  cursor: pointer;
+  padding: 10px;
+  border: none;
+  border-radius: 4px;
+  width: 100%;
+}

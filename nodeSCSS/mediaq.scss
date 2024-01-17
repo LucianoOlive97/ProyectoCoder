@@ -1,0 +1,89 @@
+@media only screen and (max-width: 600px) {
+
+    * {
+        overflow-x: hidden;
+       }
+
+       header {
+        width: 100%;
+        display: flex;
+        margin: 0;
+       
+        margin-top: 0px;
+        
+           .nav {font-size: 15px;
+            padding: 0px;
+             justify-content: center;
+             flex-wrap: wrap;
+             margin: 2px;
+             ;
+             
+            }
+            .contenedorimg{
+                display: flex;
+                margin-left: 120px;
+                .imagen {
+                    width: 500px;
+                    display: flex;
+                    justify-content: center;
+                    margin-right: 80px;
+                }
+            
+            
+            .imagenbarraitem {
+                margin-top: 30px;
+                height: 90px;
+                width: 100px
+            }
+            
+        }
+    }
+           
+            .fondoinx {
+                
+                width: 100%;
+                .titulo{
+                    font-size: 60px;
+                   }
+                .contenedorimg{
+                    display: flex;
+                    margin-left: 80px;
+                    .imagen {
+                        width: 400px;
+                        display: flex;
+                        justify-content: center;
+                        margin-right: 80px;
+                    }
+                
+                
+             
+               
+            }
+            .txtindex {
+                margin-right: 80px;
+                font-size: 20px;
+                margin-left: 10px;
+                height: 100%;
+            }
+       
+       }
+
+    
+    
+   
+        .FondoMenu {
+          .menu {
+            display: grid;
+            grid-template-columns: none;
+            margin: 40px;
+            font-size: 5px;
+            
+          }
+        }
+    }
+
+     
+      
+
+
+

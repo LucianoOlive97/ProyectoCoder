@@ -21,7 +21,7 @@
             }
             .contenedorimg{
                 display: flex;
-                margin-left: 120px;
+                
                 .imagen {
                     width: 500px;
                     display: flex;
@@ -81,6 +81,18 @@
           }
         }
     }
+    @media only screen and (min-width: 601px) and (max-width: 1005px) {
+        
+        
+        header {
+        
+        .nav {
+            flex-wrap: wrap;
+        }
+    }
+
+    }
+    
 
      
       

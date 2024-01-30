@@ -7,8 +7,19 @@ $negro: black;
     
 {
   background-color: $amarillo;
+  
+  
+  .tituloproductos {
+    margin-left: 10px;
+  }
 
-    .menu {
+  
+  .subtituloproductos {
+    margin-left: 9px;
+  }
+  
+  .menu {
+      
       display: grid;
       grid-template-columns: repeat(3, 1fr); /* 3 columnas iguales */
       background: rgb(236,250,2);
